@@ -1,0 +1,8 @@
+[Unit]
+Description=serverless-broker
+
+[Service]
+EnvironmentFile=/home/bitnami/.config/serverless-broker/.env
+ExecStart=/home/bitnami/serverless-broker/bin/serverless-broker
+Restart=always
+RestartSec=10
