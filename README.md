@@ -19,6 +19,10 @@ A cost-effective solution IMO is to run an old-school cloud server on a \$3.50 [
 - optionally provide a web API to forward messages back to the 3rd party API.
 - NOT do processing logic — as much as possible should be delegated to serverless endpoints.
 
+<a href="https://app.diagrams.net/?src=about#Hdtinth%2Fserverless-broker%2Fmaster%2Farchitecture.svg">
+  <img src="architecture.svg" alt="Architecture diagram" width="100%">
+</a>
+
 This repository contains the code and setup information for that server.
 
 ## Server set-up
